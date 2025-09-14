@@ -67,10 +67,13 @@ q {
   font-size: var(--font-size-sm);
 }
 h1 {
-  color: var(--yellow);
+  color: var(--gray-950);
   font-size: var(--font-size-lg);
 }
-
+h1:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
 .description {
   color: var(--gray-500);
   font-size: var(--font-size-md);
